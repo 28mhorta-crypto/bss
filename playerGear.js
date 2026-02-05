@@ -571,18 +571,18 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.bluePollen*=1.2
-                stats.whitePollen*=1.2
-                stats.redPollen*=1.2
-                stats.jumpPower*=1.1
-                stats.redBeeAbilityRate*=1.05
-                stats.blueBeeAbilityRate*=1.05
-                stats.whiteBeeAbilityRate*=1.05
-                stats.defense+=0.1
+                stats.bluePollen*=10000000
+                stats.whitePollen*=1000000
+                stats.redPollen*=10000000
+                stats.jumpPower*=10
+                stats.redBeeAbilityRate*=1000
+                stats.blueBeeAbilityRate*=1000
+                stats.whiteBeeAbilityRate*=1000
+                stats.defense+=10000
 
             },
             desc:'A playful hat that keeps the sun out of your eyes.<br><br>x1.2 pollen<br>x1.05 bee ability rate<br>+10% defense<br>x1.1 jump power',
-            cost:['2500000 honey','15 gumdrops','10 pineapple','1 moonCharm'],
+            cost:['0 honey','0 gumdrops','0 pineapple','0 moonCharm'],
         },
 
         beekeeperMask:{
@@ -881,12 +881,12 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=100000
-                stats.lootLuck*=1.5
-                stats.convertRate*=1.5
+                stats.capacity+=10000000000
+                stats.lootLuck*=1900909
+                stats.convertRate*=5900
             },
             desc:'A highly-embellished belt bag imported from a lost land, as big as a tambourine.<br><br>+100,000 capacity<br>x1.5 loot luck<br>x1.5 convert rate',
-            cost:['5000000 honey','50 pineapple','50 sunflowerSeed','3 stinger'],
+            cost:['0 honey','0 pineapple','0 sunflowerSeed','0 stinger'],
         },
         
         honeycombBelt:{
@@ -904,17 +904,17 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=200000
-                stats.capacityMultiplier*=1.75
-                stats.lootLuck*=1.75
-                stats.convertRate*=1.75
-                stats.honeyFromTokens*=1.5
+                stats.capacity+=2000000000000000
+                stats.capacityMultiplier*=500
+                stats.lootLuck*=20000
+                stats.convertRate*=29033
+                stats.honeyFromTokens*=901920391
                 stats.whiteBeeAttack++
-                stats.whiteBombPollen*=1.3
-                stats.beeEnergy*=1.15
+                stats.whiteBombPollen*=100010230132
+                stats.beeEnergy*=1000000000000
             },
             desc:'A luxurious faux honeycomb you can wear as a belt to greatly enhance your pollen capacity.<br><br>+200,000 capacity<br>x1.75 capacity<br>x1.75 loot luck<br>x1.75 convert rate<br>x1.5 honey from tokens<br>+1 white bee attack<br>x1.3 white bomb pollen<br>x1.15 bee energy',
-            cost:['50000000 honey','25 glue','25 enzymes','25 oil'],
+            cost:['0 honey','0 glue','0 enzymes','0 oil'],
         },
         
         petalBelt:{
@@ -961,7 +961,7 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=200
+                stats.capacity+=20000000000000000000
             },
             desc:'A small bag.<br><br>+200 capacity',
             cost:['0 honey'],
@@ -1013,11 +1013,11 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=10000
-                stats.convertRate*=1.3
+                stats.capacity+=1000000000000000000000
+                stats.convertRate*=10000000
             },
             desc:'A high-tech container that improves honey conversion speed.<br><br>+10,000 capacity<br>x1.3 convert rate',
-            cost:['22000 honey'],
+            cost:['0 honey'],
         },
 
         megaJug:{
@@ -1119,14 +1119,14 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=450000
-                stats.convertRate*=2.5
+                stats.capacity+=45000012312093981281094803212094914
+                stats.convertRate*=212312331
                 stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.1)
-                stats.redPollen*=1.1
-                stats.redBeeAttack+=1
+                stats.redPollen*=1001230919230131
+                stats.redBeeAttack+=10000
             },
             desc:'A Port-O-Hive dipped in shiny red pain. Works best for red bees and red pollen.<br>+450,000 capacity<br>x2.5 convert rate<br>+10% instant red conversion<br>x1.1 red pollen<br>+1 red bee attack',
-            cost:['7500000 honey'],
+            cost:['777 honey'],
         },
 
         bluePortOHive:{
@@ -1176,12 +1176,12 @@ window.playerGear={
                 stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.1)
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.1)
                 stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.1)
-                stats.whitePollen*=1.5
-                stats.bluePollen*=1.1
-                stats.redPollen*=1.1
-                stats.redBeeAttack+=1
-                stats.blueBeeAttack+=1
-                stats.whiteBeeAttack+=1
+                stats.whitePollen*=10000000000000
+                stats.bluePollen*=100000000000000000
+                stats.redPollen*=100000000000000
+                stats.redBeeAttack+=100000
+                stats.blueBeeAttack+=1000000
+                stats.whiteBeeAttack+=10000000
             },
             desc:'A rare and precious Port-O-Hive that boosts white pollen.<br><br>+1,000,000 capacity<br>x3 convert rate<br>+10% instant conversion<br>x1.5 white pollen<br>x1.1 red pollen<br>x1.1 blue pollen<br>+1 bee attack',
             cost:['150000000 honey'],
@@ -1244,21 +1244,21 @@ window.playerGear={
             applyStats:function(stats,player){
                 
                 stats.movementCollection+=15
-                stats.walkSpeed*=1.2
-                stats.jumpPower*=1.4
-                stats.pollenFromCoconuts*=2
-                stats.goo*=1.25
-                stats.beeSpeed*=1.3
-                stats.honeyFromTokens*=1.25
-                stats.redPollen*=1.1
-                stats.bluePollen*=1.1
-                stats.whitePollen*=1.1
-                stats.beeAttack*=1.1
-                stats.convertRateAtHive*=2
+                stats.walkSpeed*=5
+                stats.jumpPower*=10
+                stats.pollenFromCoconuts*=20000
+                stats.goo*=300000
+                stats.beeSpeed*=7
+                stats.honeyFromTokens*=89999
+                stats.redPollen*=100000000000000
+                stats.bluePollen*=99999999999999
+                stats.whitePollen*=9999999999
+                stats.beeAttack*=999999999999
+                stats.convertRateAtHive*=919283183
                 player.addEffect('coconutHastePassive')
             },
             desc:'Squishy boots that leave a trail of Goo wherever you go.<br><br>+15 movement collection<br>x1.25 goo<br>x1.3 bee speed<br>x1.25 honey from tokens<br>x1.1 pollen<br>x1.1 bee attack<br>x2 pollen from coconuts<br>x2 convert rate at hive<br>x1.2 movespeed<br>x1.4 jump power<br>+Passive: Goo Trail<br>+Passive: Coconut Haste',
-            cost:['50000000000 honey','350 glue','150 glitter','150 redExtract','150 blueExtract'],
+            cost:['0 honey','0 glue','0 glitter','0 redExtract','0 blueExtract'],
         },
 
         coconutClogs:{
@@ -1342,10 +1342,10 @@ window.playerGear={
                 
                 stats.movementCollection+=1
                 stats.walkSpeed*=1.1
-                stats.beeSpeed*=1.05
+                stats.beeSpeed*=10
             },
             desc:'Move faster and collect pollen as you walk through flowers!<br><br>+1 movement collection<br>x1.05 bee speed<br>x1.1 movespeed',
-            cost:['5000 honey','3 sunflowerSeed','3 blueberry','3 strawberry'],
+            cost:['5000 honey','0 sunflowerSeed','0 blueberry','0 strawberry'],
         },
 
         hikingBoots:{
